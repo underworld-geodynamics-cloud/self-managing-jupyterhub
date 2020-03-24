@@ -1,0 +1,8 @@
+name: required_environment
+channels: 
+    - conda-forge
+    - underworldcode
+dependencies:
+    - stripy
+    - quagmire
+
