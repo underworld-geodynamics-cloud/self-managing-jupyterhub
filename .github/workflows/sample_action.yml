@@ -31,6 +31,6 @@ jobs:
         SSHPASS: ${{ secrets.DROPLET_PASS }}
       run: |
         sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} echo 'connected again'
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E conda env update --file packages.yml'
+        sshpass -e ssh root@${{ secrets.DROPLET_IP }}  'export PATH=/opt/tljh/user/bin:${PATH}''
+        sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo PATH=${PATH} -E conda env update --file packages.yml'
 
