@@ -30,4 +30,4 @@ jobs:
       env:  
         SSHPASS: ${{ secrets.DROPLET_PASS }}
       run: |
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} echo "Connected"
+        sshpass -e ssh -o UserKnownHostsFile=/dev/null root@${{ secrets.DROPLET_IP }} echo "Connected"
