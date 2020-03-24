@@ -27,6 +27,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
-      env:  SSHPASS: ${{ secrets.DROPLET_PASS }}
+      env:  
+        SSHPASS: ${{ secrets.DROPLET_PASS }}
       run: |
         sshpass -e ssh root@${{ secrets.DROPLET_IP }} echo "Connected"
