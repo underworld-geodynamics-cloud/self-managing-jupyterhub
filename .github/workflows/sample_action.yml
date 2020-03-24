@@ -30,5 +30,5 @@ jobs:
       env:  
         SSHPASS: ${{ secrets.DROPLET_PASS }}
       run: |
-        sshpass -e ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
+        sshpass -e ssh s-o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
         ssh root@${{ secrets.DROPLET_IP }} echo "connected (again)"
