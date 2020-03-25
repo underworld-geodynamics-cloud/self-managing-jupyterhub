@@ -10,5 +10,9 @@ dependencies:
     - obspy
     - pandas
     - nb_conda_kernels
+    -pip 
+
+    - pip:
+        - lavavu 
 
 

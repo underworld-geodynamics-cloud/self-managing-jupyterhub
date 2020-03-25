@@ -1,5 +1,6 @@
 # Release ID for Jupyterhub
 
-This file triggers an install of the jupyterhub installation.
+Editing this file triggers an install of the jupyterhub installation.
 
+ - **IP Address:** http://128.199.153.60
  - **Release ID:** 0.0.0
