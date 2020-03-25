@@ -3,7 +3,8 @@ name: Initialise tljh
 on:
   push:
     paths:
-      - 'ServerID.md' 
+      - 'ServerID.md'                         # change the ID file
+      - .github/workflows/install_tljh.yml    # or this file
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -30,4 +31,4 @@ jobs:
         HUBADMIN_PASS: ${{ secrets.HUBADMIN_PASSWORD }}
       run: |
         sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
+        sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin lmoresi --admin $HUBADMIN:$HUBADMIN_PASS" 
