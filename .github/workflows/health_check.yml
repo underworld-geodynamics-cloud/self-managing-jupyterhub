@@ -20,7 +20,7 @@ jobs:
       
     - name: Request version via jupyterhub REST API
       run: |
-        curl http://{{ secrets.DROPLET_IP }}/hub/api
+        curl http://${{ secrets.DROPLET_IP }}/hub/api
 
         
       
