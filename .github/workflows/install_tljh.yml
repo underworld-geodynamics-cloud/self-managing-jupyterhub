@@ -1,10 +1,9 @@
-name: Update packages
+name: Initialise tljh
 
 on:
   push:
-    branches: [ testing ]
-  pull_request:
-    branches: [ testing ]
+    paths:
+      - 'ServerID.md' 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,8 +26,8 @@ jobs:
     - name: Install conda packages from packages.yml file
       env:  
         SSHPASS: ${{ secrets.DROPLET_PASS }}
+        HUBADMIN: ${{ secrets.HUBADMIN_USER }}
+        HUBADMIN_PASS: ${{ secrets.HUBADMIN_PASSWORD }}
       run: |
         sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
-        sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
-        sshpass -e ssh root@${{ secrets.DROPLET_IP }} 'sudo -E /opt/tljh/user/bin/conda env update --file packages.yml'
-
+        sshpass -e ssh root@${{ secrets.DROPLET_IP }} "curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master/bootstrap/bootstrap.py | sudo python3 -  --admin $HUBADMIN:$HUBADMIN_PASS" 
