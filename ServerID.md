@@ -9,4 +9,5 @@ There will be errors if the github secrets have not been set up
  
  ## Comments
    
-Rebuilt droplet / test the installer workflow
+Rebuilt droplet / test the installer workflow 
+Note: rebuilding the droplet resets the root password to a temporary value
