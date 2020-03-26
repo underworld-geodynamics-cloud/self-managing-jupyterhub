@@ -3,6 +3,7 @@ name: Health check
 on:
   schedule: 
     - cron:  '*/30 * * * *'  # Every 30 minutes
+
   push:
     branches: [ testing ]
 
@@ -30,6 +31,5 @@ jobs:
       run: |
         sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} hostname
         sshpass -e ssh root@${{ secrets.DROPLET_IP }} "sudo tljh-config reload hub"
-
         
       
