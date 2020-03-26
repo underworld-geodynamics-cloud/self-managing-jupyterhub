@@ -9,7 +9,6 @@ dependencies:
     - cartopy
     - obspy
     - pandas
-    - nb_conda_kernels
     - pip 
 
 
