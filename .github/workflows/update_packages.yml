@@ -29,6 +29,7 @@ jobs:
     - name: Install conda packages from packages.yml file
       env:  
         SSHPASS: ${{ secrets.DROPLET_PASS }}
+        
       run: |
         sudo -E sshpass -e ssh -o StrictHostKeyChecking=no root@${{ secrets.DROPLET_IP }} "hostname"
         sudo -E sshpass -e scp packages.yml root@${{ secrets.DROPLET_IP }}:packages.yml
