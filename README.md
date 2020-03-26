@@ -7,10 +7,22 @@ Actions are configured so that the server status is frequently checked:  ![Healt
 
 This is a template repository that can be copied or forked to run a particular droplet.
 
+
+## How to use this template
+
+
+
 ## Nbgitpuller
 
 To make a "binder-like" link to a repository on a droplet that you have set up, you can do this:
 
+You can launch this example to try it out by clicking on this link. Your work is persistent. 
+
 http://128.199.153.60/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FANU-RSES-Education%2Fdroplet-template&urlpath=tree%2Fdroplet-template%2FStartHere.ipynb&branch=master
 
 
+## Setup instructions for Digital Ocean
+
+
+
+## Setup instructions for the juypterhub you have installed
