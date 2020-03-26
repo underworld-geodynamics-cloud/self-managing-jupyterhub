@@ -21,6 +21,14 @@ is autoatically monitored:
 
 ## How to use this template
 
+The full set of instructions is given in the [Documentation](Documentation) folder. The steps are:
+
+    - Create a suitable server ([instructions are for a Digital Ocean droplet](Documentation/DigitalOcean.md))
+    - Make a clone of this template repository (See [Github.md](Documentation/Github.md))
+    - Update the cloned repository with information about the server that you have set up
+    - Commit the updates on Github to trigger the build / rebuild of the content of the server
+    - Create links for `nbgitpuller` for users of the server and test them (See [nbgitpuller.md](Documentation/nbgitpuller.md )) 
+    - Add your users to the `jupyterhub` ([ManagingUsers.md](Documentation/ManagingUsers.md))
 
 
 ## Nbgitpuller
