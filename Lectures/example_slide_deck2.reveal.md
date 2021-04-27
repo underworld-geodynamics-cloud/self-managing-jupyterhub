@@ -1,13 +1,8 @@
 ---
-title: Example 1
-# separator: <!--s-->
-# verticalSeparator: <!--v-->
-theme: white
+title: Example 2
 revealOptions:
 #    transition: 'fade'
     slideNumber: true
-    width: 1600
-    height: 900
 ---
 
 # Slides
@@ -76,6 +71,6 @@ Reveal has vertical sub-stacks that you can divert through
 
 Reveal has vertical sub-stacks that you can divert through
 
-<img class="r-stretch" data-src="images/LithosphereThickness.png">
+![Earth](images/LithosphereThickness.png) <!-- .element height="50%" width="50%" -->
 
 ---
