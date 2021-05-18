@@ -1,4 +1,5 @@
 ---
+
 title: EMSC tester
 separator: '<--o-->  '
 verticalSeparator: '<--v-->'
@@ -14,6 +15,7 @@ revealOptions:
 
 Louis Moresi  
 Australian National University
+
 <--o-->
 
 ## Second slide
@@ -29,7 +31,6 @@ Note: This is a speaker note that is not rendered !
 <--o-->
 
 ## Slide number 3
-
 
  - one
  - two 

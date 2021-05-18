@@ -3,9 +3,7 @@ title: Tester 2
 separator: '<--o-->  '
 verticalSeparator: '<--v-->'
 revealOptions:
-#    transition: 'fade'
-
-    slideNumber: true
+#   transition: 'fade'
     width:  1100
     height: 750
     margin: 0.07

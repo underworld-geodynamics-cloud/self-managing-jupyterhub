@@ -10,6 +10,7 @@ then
 fi
 
 mkdir -p static_slides
+
 reveal-md  --static static_slides/slideshows \
            --theme css/anu.css --glob '**/*.reveal.md' \
            --separator '<--o-->' \

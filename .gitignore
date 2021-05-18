@@ -4,10 +4,10 @@ Notebooks/*.png
 
 # Jupyter Book build relics
 
-/Jupyterbook/_build
+Jupyterbook/_build
+Jupyterbook/static_slides
 /Lectures/static_slides/slideshows
 *slideshows*
-
 
 # IDE files
 
@@ -151,6 +151,8 @@ dmypy.json
 Lectures/_static
 Lectures/static_slides
 
+
+.DS_Store
 
 .DS_Store
 
