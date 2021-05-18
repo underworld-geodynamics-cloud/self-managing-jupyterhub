@@ -62,7 +62,7 @@ Reveal has vertical sub-stacks that you can divert through
 
  - Vertical stack 1
 
-<--o-->-
+<--o-->
 
 ## Slide 5.1 Vertical slides
 
@@ -71,7 +71,7 @@ Reveal has vertical sub-stacks that you can divert through
 
  - Vertical stack 2
 
-<--o-->-
+<--o-->
 
 ## Slide 5.2 Vertical slides
 
