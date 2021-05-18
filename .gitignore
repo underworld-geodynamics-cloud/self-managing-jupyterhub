@@ -92,6 +92,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints*
+
 
 # IPython
 profile_default/
@@ -148,7 +150,6 @@ dmypy.json
 
 Lectures/_static
 Lectures/static_slides
-
 
 
 .DS_Store
