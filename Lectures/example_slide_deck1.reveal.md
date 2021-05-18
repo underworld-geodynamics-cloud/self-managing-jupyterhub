@@ -1,10 +1,13 @@
 ---
-title: Example 1
+
+title: EMSC tester
+separator: '<--o-->  '
+verticalSeparator: '<--v-->'
 revealOptions:
-    transition: 'fade'
+#    transition: 'fade'
     slideNumber: true
-    width:  1000
-    height: 666
+    width:  1100
+    height: 750
     margin: 0.07
 ---
 
@@ -12,7 +15,8 @@ revealOptions:
 
 Louis Moresi  
 Australian National University
----
+
+<--o-->
 
 ## Second slide
 
@@ -24,10 +28,9 @@ Australian National University
 
 Note: This is a speaker note that is not rendered !
 
----
+<--o-->
 
 ## Slide number 3
-
 
  - one
  - two 
@@ -39,13 +42,13 @@ Note: This is a speaker note that is not rendered !
 
  This is an subsection of text
 
----
+<--o-->
 
 ## Stokes Equation
 
 $$ \nabla \cdot \sigma = \rho g  \mathbf{ z }   $$
 
----
+<--o-->
 
 ## Image 
 
@@ -55,7 +58,7 @@ $$ \nabla \cdot \sigma = \rho g  \mathbf{ z }   $$
 ![Earth](images/LithosphereThickness.png) <!-- .element height="50%" width="50%"  -->
 ```
 
----
+<--o-->
 
 ## Image v2 
 

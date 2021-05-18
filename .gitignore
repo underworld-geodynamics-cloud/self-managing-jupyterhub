@@ -6,6 +6,8 @@ Notebooks/*.png
 
 Jupyterbook/_build
 Jupyterbook/static_slides
+/Lectures/static_slides/slideshows
+*slideshows*
 
 # IDE files
 
@@ -90,6 +92,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints*
+
 
 # IPython
 profile_default/
@@ -148,6 +152,7 @@ Lectures/_static
 Lectures/static_slides
 
 
+.DS_Store
 
 .DS_Store
 
