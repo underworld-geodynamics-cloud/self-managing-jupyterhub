@@ -17,9 +17,20 @@ parse:
 
 sphinx:
   config:
+    html_show_copyright: false
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    html_extra_path: ['Lectures/static_slides']
+    # html_extra_path: ['Figures/Movies']
 
+    myst_enable_extensions: 
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
 
 repository:
   url         : https://github.com/underworld-geodynamics-cloud/self-managing-jupyterhub  # Online location of this book

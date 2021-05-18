@@ -4,8 +4,10 @@ Notebooks/*.png
 
 # Jupyter Book build relics
 
-Jupyterbook/_build
-Jupyterbook/static_slides
+/Jupyterbook/_build
+/Lectures/static_slides/slideshows
+*slideshows*
+
 
 # IDE files
 
