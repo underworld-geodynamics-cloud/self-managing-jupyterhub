@@ -1,6 +1,6 @@
 ---
 title: Tester 2
-separator: '<--o-->  '
+separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
 #   transition: 'fade'

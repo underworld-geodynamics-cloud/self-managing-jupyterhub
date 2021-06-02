@@ -12,7 +12,7 @@
 /* See this url: https://github.com/webpro/reveal-md/issues/121   */ 
 
 .reveal > .backgrounds > div {
-  background-image: url('../../images/css/anu_general.png');
+  background-image: url('../../images/css/unimelb_general.png');
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -22,13 +22,13 @@
 
 /* This for a different title slide bg image if required */
 
-.reveal > .backgrounds > div:first-child {
-  background-image: url('../../images/css/anu_title.png');
+/* .reveal > .backgrounds > div:first-child {
+  background-image: url('../../images/css/unimelb_title.png');
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');

@@ -1,7 +1,7 @@
 ---
 
 title: EMSC tester
-separator: '<--o-->  '
+separator: '<--o-->'
 verticalSeparator: '<--v-->'
 revealOptions:
 #    transition: 'fade'
