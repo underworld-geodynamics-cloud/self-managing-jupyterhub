@@ -12,7 +12,7 @@ html:
 #  home_page_in_navbar option: true
   use_repository_button: true
   comments:
-  hypothesis: true
+    hypothesis: true
 
 parse:
   myst_extended_syntax: true
