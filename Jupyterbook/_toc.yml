@@ -15,3 +15,12 @@ parts:
       sections:
       - file: Notebooks/Example1.ipynb
       - file: Notebooks/Example2.md
+
+
+  - caption: Glossary
+    chapters:
+    - file: Glossary
+
+  - caption: Bibliography
+    chapters:
+    - file: Bibliography
